@@ -67,7 +67,7 @@
             <i class="fab fa-blogger"></i>
           </span>
           <h4>
-            <strong>Blogger</strong>
+            <strong>Blogging</strong>
           </h4>
           <p class="text-faded mb-0">I blog about cooking, lifestyle, and shopping etc.</p>
         </div>
@@ -76,7 +76,7 @@
             <i class="fab fa-youtube"></i>
           </span>
           <h4>
-            <strong>YouTuber</strong>
+            <strong>YouTube</strong>
           </h4>
           <p class="text-faded mb-0">
             Have a cooking YouTube channel called Joy Kitchen.</p>
@@ -101,8 +101,19 @@
         <h3 class="text-secondary mb-0">Portfolio</h3>
         <h2 class="mb-5">Recent Projects</h2>
       </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
+      <div style="display: none;" class="row no-gutters">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <div class="category text-center">
+            <span class="all">All</span>
+            <span class="react">React</span>
+            <span class="angular">Angular</span>
+            <span class="htmlcss">HTML5 & CSS3</span>
+            <span class="bootstrap">Bootstrap</span>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters category-projects">
+        <div class="col-lg-6 all react">
           <a class="portfolio-item" href="https://reacttodo-app.netlify.app/" target="_blank">
             <div class="caption">
               <div class="caption-content">
@@ -113,7 +124,7 @@
             <img class="img-fluid" src="img/todo-card.jpg" alt="Todo">
           </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 all react">
           <a class="portfolio-item" href="https://moviesearchapplication.netlify.app/" target="_blank">
             <div class="caption">
               <div class="caption-content">
@@ -124,7 +135,7 @@
             <img class="img-fluid" src="img/movie-search-card.jpg" alt="Movie Search">
           </a>
         </div>
-        <!-- <div class="col-lg-6">
+        <!-- <div class="col-lg-6 all react">
           <a class="portfolio-item" href="#!" target="_blank">
             <div class="caption">
               <div class="caption-content">
@@ -135,7 +146,7 @@
             <img class="img-fluid" src="img/netflix-card.jpg" alt="Netflix Clone">
           </a>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 all">
           <a class="portfolio-item" href="#!" target="_blank">
             <div class="caption">
               <div class="caption-content">
@@ -202,6 +213,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+
+  <script src="js/category.js"></script>
 
 </body>
 
